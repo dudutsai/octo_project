@@ -1,0 +1,22 @@
+{
+  "name": "octo",
+  "version": "1.0.0",
+  "description": "Octo Consulting Code Challenge",
+  "main": "octo_project.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudutsai/octo_project.git"
+  },
+  "author": "atsai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudutsai/octo_project/issues"
+  },
+  "homepage": "https://github.com/dudutsai/octo_project#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}

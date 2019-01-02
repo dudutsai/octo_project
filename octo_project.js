@@ -1,4 +1,7 @@
-function transmute(nums) {
+const countGreaterElementsToTheRight = (nums) => {
+	if (!Array.isArray(nums)) {
+		return null;
+	}
 	return nums.map((value, index, array) => {
 		let numsGreaterToTheRight = 0;
 		for (let i = index; i < array.length; i++) {
@@ -10,5 +13,4 @@ function transmute(nums) {
 	});
 }
 
-
-console.log(transmute([30,8,10,12,7]));
+module.exports = { countGreaterElementsToTheRight }
