@@ -4,7 +4,7 @@ const countGreaterElementsToTheRight = (nums) => {
 	}
 	return nums.map((value, index, array) => {
 		let numsGreaterToTheRight = 0;
-		for (let i = index; i < array.length; i++) {
+		for (let i = Math.min(index + 1, array.length); i < array.length; i++) {
 			if (array[i] > value) {
 				numsGreaterToTheRight++;
 			}
